@@ -102,6 +102,7 @@ body {
 .leaves img {
     width: 400px;
     height: auto;
+    border-radius: 15px;
 }
 
 .content {
@@ -128,7 +129,7 @@ body {
     flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
-    padding: 50px 700px 50px 700px;
+    padding: 50px 600px 50px 600px;
 }
 
 .quote h3{
@@ -143,4 +144,7 @@ body {
     text-align: right;
     font-weight: bolder;
 }
+
+
+
 
