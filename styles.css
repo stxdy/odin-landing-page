@@ -45,9 +45,10 @@ body {
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    transform: scaleX(-1)
 }
 
 .headerlink {
@@ -145,6 +146,38 @@ body {
     font-weight: bolder;
 }
 
+.cta-banner {
+    padding: 50px;
+    background-color: #3882F6;
+    margin: 100px 0px 100px 0px ;
+}
 
+.cta-support {
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: left;
+    padding-left: 600px;
+}
 
+.cta-banner div {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left;
+    padding-left: 600px;
+}
 
+.cta-banner button {
+    display: inline;
+    color: #ffffff;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 15px 20px;
+}
+
+.footer {
+    padding: 25px;
+    background-color: #1F2937;
+    color: #F9FAF8  ;
+}
