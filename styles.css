@@ -2,13 +2,19 @@
 dark background color
 #1F2937
 
-header main text
-
-
-
+Hero main text:
+48px extra bold
 #F9FAF8
 
+
+
+Hero Secondary Text
+18px
 #E5E7EB
+
+Header Logo Text
+24px
+#F9FAF8
 
 
 */
@@ -21,42 +27,80 @@ body {
     font-family: 'Roboto', arial;
 }
 
+
+
+/* Section One */
+    /* Navbar Section */
+
 .container {
     display: flex;
     flex-direction: column;
 }
 
 .navbar {
-    display: flex;
     background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 4em;
-}
-
-.header-link {
-    padding: 0px 100px 0px 0px;
-    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 500px 50px 500px;
 }
 
 .header-logo {
-    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
 }
 
-.hero {
-    display:  block;
-    background-color: #1F2937;
-    justify-content: center;
-    padding: 20em;
+.headerlink {
+ /* display: flex;*/
+    text-align: right;
+    margin-left: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 4px;
 }
+
+/* hero section*/
+
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .hero-main {
-    color: #F9FAF8;
-    font-size: 48px;
-    
+    flex-basis: 500px;
+    margin-right: 60px;
+    text-align: left;
 }
 
-.hero-subtext {
-    color: #E5E7EB;
-    font-size: 24px;
-    
+.hero-main h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
+
+.hero-main p {
+    size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main button {
+    color:#ffffff;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border-radius: 12px;
+    border: #3882F6;
+}
+
+.leaves img {
+    width: 300px;
+    height: auto;
+}
+
